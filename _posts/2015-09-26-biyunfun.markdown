@@ -1,4 +1,4 @@
-﻿---
+---
 title:  "Wedding are cool!"
 subtitle: "The Fly!"
 author: "xiaodong"
