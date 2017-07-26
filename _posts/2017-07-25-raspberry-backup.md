@@ -50,7 +50,7 @@ excerpt: 树莓派备份到大容量SD卡
 >
 > * Fixing value out of range error when the original sectors were not setup correctly: http://www.claudiokuenzler.com/blog/621/force-new-partition-start-at-certain-sector-number-parted#.V29JxLgrL1t
 
-** The above information was used to create the below guide. Highlighted in red text are the commands I used. Same commands in the command line description.**
+**The above information was used to create the below guide. Highlighted in red text are the commands I used. Same commands in the command line description.**
 
 >
 > * 1 Backup the original SD card – https://www.raspberrypi.org/forums/viewtopic.php?p=239331
@@ -101,5 +101,6 @@ excerpt: 树莓派备份到大容量SD卡
 > * 21
 >  ![pic](/css/pics/p2017-0726-05.png)
 > * 22 Type df -h to validate the /dev/root partition updated to the appropriate size.
+
 
 
