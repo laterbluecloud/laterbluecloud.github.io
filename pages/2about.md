@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 作者
 permalink: /about/
 icon: glyphicon-heart
 ---
