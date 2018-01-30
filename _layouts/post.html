@@ -19,13 +19,28 @@ layout: default
       -->
 	</div>
     <div class="post-area post comment">
-      <!-- 多说评论框 start -->
+	  <!--
+      <!-- 多说评论框 start 
       
-      <!-- UY BEGIN -->
+      <!-- UY BEGIN 
 	 <div id="uyan_frame"></div>
 	 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2139865"></script>
 	  <!-- UY END -->
       <!-- 多说评论框 end -->
+	<div id="gitmentContainer"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	var gitment = new Gitment({
+		owner: 'laterbluecloud',
+		repo: 'https://github.com/laterbluecloud/laterbluecloud.github.io.git',
+		oauth: {
+			client_id: 'b72066aaa615f10aa2e4',
+			client_secret: '2b1436bef737aace870b78515437f66974a0a491',
+		},
+	});
+	gitment.render('gitmentContainer');
+	</script>  
     </div>
   </div>
 
